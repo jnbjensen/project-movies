@@ -8,10 +8,10 @@ export const PageNotFound = () => {
   };
 
   return (
-    <>
+    <div class="error" role="alert" aria-relevant="all">
       <h1>Page Not Found! </h1>
       <button type="button" onClick={returnToDefaultPage}>Go back to the home page</button>
-    </>
+    </div>
   );
 }
 
